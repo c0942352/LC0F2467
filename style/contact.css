@@ -1,0 +1,88 @@
+
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    /* background-color: #fff; */
+}
+
+#contact .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contact h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+#contact input,
+#contact select,
+#contact textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="date"],
+#contact select {
+    width: 100%;
+}
+
+#contact textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+#contact button {
+    padding: 12px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#contact button:hover {
+    background-color: #555;
+}
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    #contact .container {
+        padding: 15px;
+    }
+
+    #contact h2 {
+        font-size: 24px;
+    }
+
+    #contact input,
+    #contact select,
+    #contact textarea,
+    #contact button {
+        font-size: 14px;
+    }
+}

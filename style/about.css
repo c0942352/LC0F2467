@@ -1,0 +1,86 @@
+/* General Styles */
+
+
+/* Main Section */
+main {
+    padding: 20px;
+    /* background-color: #fff; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Section Box */
+.box {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Working Hours Table */
+.working-hours {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.working-hours th, 
+.working-hours td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.working-hours thead {
+    background-color: #333;
+    color: #fff;
+}
+
+.working-hours tbody tr:nth-child(even) {
+    background-color: #f3f3f3;
+}
+
+.team-images {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.team-images img {
+    width: 30%;
+    border-radius: 10px;
+}
+
+
+/* Media Query for Responsiveness */
+@media (max-width: 768px) {
+    .box {
+        padding: 15px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .working-hours th, 
+    .working-hours td {
+        padding: 10px 12px;
+    }
+}
